@@ -1,0 +1,20 @@
+Google dork
+
+inurl:"/wp-json/wp/v2/users"
+intitle:"index.of" intext:"api.txt"
+inurl:"/api/v1" intext:"index of /"
+ext:php inurl:"api.php?action="
+
+GIT Dork
+
+target "api keys"
+target filename:swagger.json
+target extension: .json
+
+SHODON
+
+hostname:"targetname.com"
+"content-type: application/json"
+"content-type: application/xml"
+"200 OK"
+"wp-json"
