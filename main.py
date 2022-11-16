@@ -16,5 +16,4 @@ re = LinearRegression()
 re.fit(x, y)
 py.plot(x, re.predict(x), color='red', linewidth=2)
 py.show()
-
-sprint(re.score(x, y))
+re.score(x, y)
