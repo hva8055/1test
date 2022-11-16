@@ -1,0 +1,1 @@
+print(bol maga manoj)
